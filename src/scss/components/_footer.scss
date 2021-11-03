@@ -1,0 +1,87 @@
+@import '../variables';
+@import '../fonts';
+
+*{ 
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+  outline: none;
+}
+
+
+.footer_container {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  position:relative;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  opacity: 80%;
+}
+
+.footer__social_icons ul{
+  margin: 0px;
+  padding: 0px;
+  text-align:  center;
+}
+.footer__social_icons ul li {
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ margin: 0px 20px;
+}
+
+.footer__social_icons ul li a{
+  margin: 40px 0px;
+  font-size: 30px;
+
+}
+
+
+.footer__menu_one  {
+ width: 100%;
+ height: auto;
+ margin: auto;
+ margin-top:40px;
+  
+}
+
+  .footer__menu_one ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+  }
+  
+  .footer__menu_one ul li {
+    display: inline-block;
+    margin: 0px 20px;
+  }
+
+
+.footer__menu_two {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top:0px;
+   
+ }
+ 
+   .footer__menu_two ul {
+     margin: 0px;
+     padding: 0px;
+     text-align: center;
+ 
+   }
+   
+   .footer__menu_two ul li {
+     display: inline-block;
+     margin: 0px 20px;
+   
+   }
+  

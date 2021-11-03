@@ -1,0 +1,125 @@
+{
+  "pizzas": [
+    {
+      "id": 0,
+      "imageUrl": "https://i.postimg.cc/CKcfk9v4/cthulhu.png",
+      "name": "Ctulhu",
+      "types": [0, 1],
+      "sugar" : [ "regular", "sugar-free","sugar bomb"],
+      "price": 1.5,
+      "category": 1,
+      "rating": 5
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://i.postimg.cc/fbz93MvL/eyeforaneye.png",
+      "name": "Eye for an eye",
+      "types": [0,2],
+      "sugar" : [ "regular", "sugar bomb"],
+      "price": 2,
+      "category": 2,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.postimg.cc/K8yL2Pkt/heythisaintchocolate.png",
+      "name": "Hey! This is ain't chocolate", 
+      "types": [0],
+      "sugar" : [ "regular", "sugar-free"],
+      "price": 1.5,
+      "category": 0,
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://i.postimg.cc/kgFSX2Kz/milkyway.png",
+      "name": "Milky way",
+      "types": [1,2],
+      "sugar" : [ "regular", "sugar-free","sugar bomb"],
+      "price": 1.5,
+      "category": 3,
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://i.postimg.cc/DZm4g5H3/seabreeze.png",
+      "name": "Sea breeze",
+      "types": [0, 1],
+      "sugar" : [ "regular", "sugar-free","sugar bomb"],
+      "price": 2.5,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://i.postimg.cc/5yCYcyfP/toothbreaker.png",
+      "name": "Tooth Breaker",
+      "types": [0, 1,2],
+      "sugar" : [ "regular", "sugar-free","sugar bomb"],
+      "price": 1.5,
+      "category": 1,
+      "rating": 10
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://i.postimg.cc/50GYkLWY/thehealtyoption.png",
+      "name": "The healthy option", 
+      "types": [0],
+      "sugar" : [ "regular", "sugar-free"],
+      "price": 1.5,
+      "category": 0,
+      "rating": 1
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://i.postimg.cc/FzqTmBML/catarrh.png",
+      "name": "Catarrh", 
+      "types": [0],
+      "sugar" : [ "regular", "sugar-free","sugar bomb"],
+      "price": 1,
+      "category": 3,
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://i.postimg.cc/gcBSvxx2/da-bomb.png",
+      "name": "Da-bomb 💥", 
+      "types": [0,1],
+      "sugar" : [ "regular", "sugar-free"],
+      "price": 2.5,
+      "category": 1,
+      "rating": 6
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://i.postimg.cc/Prp6KdDz/furryball.png",
+      "name": "Furry Ball", 
+      "types": [1],
+      "sugar" : [ "regular", "sugar-free"],
+      "price": 1.5,
+      "category": 2,
+      "rating": 9
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://i.postimg.cc/nrM3yJPx/strawberry.png",
+      "name": "Yes, just strawberry", 
+      "types": [0,1],
+      "sugar" : [ "regular", "sugar-free"],
+      "price": 1.5,
+      "category": 0,
+      "rating": 2
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://i.postimg.cc/X7RsztcM/zuppa-inglese.png",
+      "name": "Zuppa Inglese", 
+      "types": [0],
+      "sugar" : [ "regular", "sugar-free", "sugar bomb"],
+      "price": 2,
+      "category": 2,
+      "rating": 6
+    }
+    
+  ]
+}
