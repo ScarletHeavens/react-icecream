@@ -11,5 +11,5 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(PORT, ()=> {
-    console.log('server is running');
+    console.log('Server is running');
 });
