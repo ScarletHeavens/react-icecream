@@ -1,4 +1,4 @@
-import {Header} from './Components';
+import {Header, Footer} from './Components';
 import {Home, Cart, LastPage} from './Components/Pages';
 import {Route} from 'react-router-dom';
 import React from 'react';
@@ -24,6 +24,7 @@ const App = () => {
    <Route path = '/' component = {Home} exact/>
    <Route path = '/cart' component= {Cart} exact/>
    <Route path = '/order' component= {LastPage} exact/>
+   <Footer/>
    </div>
 
   )
