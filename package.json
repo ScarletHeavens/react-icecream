@@ -12,6 +12,7 @@
     "add": "^2.0.6",
     "axios": "^0.23.0",
     "classnames": "^2.3.1",
+    "concurrently": "^6.3.0",
     "content": "^4.0.6",
     "json-server": "^0.17.0",
     "loader": "^2.1.1",
@@ -30,7 +31,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\"\"json-server -p 3002 -w public/db.json\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
