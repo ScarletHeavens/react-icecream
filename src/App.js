@@ -24,7 +24,7 @@ const App = () => {
    <Route path = '/' component = {Home} exact/>
    <Route path = '/cart' component= {Cart} exact/>
    <Route path = '/order' component= {LastPage} exact/>
-   <Footer/>
+   <Footer />
    </div>
 
   )
