@@ -27,8 +27,9 @@ const Cart = () => {
   }
 
   const onPayClick= () => {
-   dispatch(clickedPaid(true));
+  dispatch(clickedPaid(true));
   setTimeout(()=> dispatch(clickedPaid(false)),4000);
+  setTimeout(()=> dispatch(emptyCart()), 3000);
   }
  
   return (

@@ -31,16 +31,24 @@ body {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #fae7eb;
-  position: relative;
+  background-color: #fdf6f8;
+  position: absolute;
 
-
-&__inner img {
+img {
 position: relative;
-justify-content: flex;
+height: 230px;
+width: 700px;
+top: -120px;
+}
+}
+
+.load__inner img{
 height: 200px;
 width: 300px;
-}}
+position: relative;
+top: 400px;
+left: 580px;
+}
 
 
 .content {

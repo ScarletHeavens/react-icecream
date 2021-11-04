@@ -6,11 +6,11 @@ import kid from '../scss/assets/img/icecreamloading1.gif';
 
 const LoaderMain = () => {
  return (
+   <div >
    <div  className="load">
-   <img src={logo}/>
+   <img src={logo}/></div>
    <div className='load__inner'>
-   <img src={kid}/>
-   </div>
+   <img src={kid}/></div>
   </div>
  );
  }
