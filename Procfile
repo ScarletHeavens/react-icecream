@@ -1,1 +1,1 @@
-web: node json-server.jsclear 
+web: node json-server.js
