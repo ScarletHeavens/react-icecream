@@ -24,7 +24,6 @@ body {
  
 }
 
-
 .load {
   display: flex;
   justify-content: center;
@@ -34,21 +33,27 @@ body {
   background-color: #fdf6f8;
   position: absolute;
 
-img {
+
+&__outer {
 position: relative;
+display: flex;
 height: 230px;
 width: 700px;
 top: -120px;
-}
+left: 130px;
 }
 
-.load__inner img{
-height: 200px;
-width: 300px;
-position: relative;
-top: 400px;
-left: 580px;
+&__inner{
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 300px;
+  top: 100px;
+  right: 330px;
+ 
+  }
 }
+
 
 
 .content {
